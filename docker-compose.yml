@@ -1,0 +1,28 @@
+services:
+  server:
+    image: nginx:alpine
+    container_name: server
+    hostname: server
+    networks:
+      tls-net:
+        ipv4_address: 10.10.0.2
+    volumes:
+      - ./server/html:/usr/share/nginx/html:ro
+
+  client:
+    image: debian:bookworm-slim
+    container_name: client
+    hostname: client
+    networks:
+      tls-net:
+        ipv4_address: 10.10.0.3
+    cap_add:
+      - NET_ADMIN # needed for tcpdump to set promiscuous mode
+    command: sleep infinity
+
+networks:
+  tls-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/24

@@ -1,0 +1,53 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            6c:57:90:56:1a:67:97:97:9b:97:10:1f:01:a8:32:4d
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=MatthewBentz-CA
+        Validity
+            Not Before: Apr 19 02:59:28 2026 GMT
+            Not After : Jul 22 02:59:28 2028 GMT
+        Subject: CN=client
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:65:32:3b:1e:b1:6b:83:50:3b:01:4b:f8:73:f1:
+                    89:df:2d:3f:99:ee:7f:da:63:71:bd:eb:0a:1d:a5:
+                    98:12:45:94:e0:60:5a:1c:ff:ab:3e:a7:9d:f8:88:
+                    54:2a:e5:93:1b:9a:79:94:32:72:f2:71:14:28:a7:
+                    a2:9d:05:c3:7b
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                B8:5E:F6:57:D7:DA:00:A4:5A:4F:C4:F2:79:50:3A:64:9B:55:2A:64
+            X509v3 Authority Key Identifier: 
+                keyid:0E:E9:87:18:A3:B8:08:6D:EB:4A:82:7D:A8:C3:60:04:F4:5B:64:CB
+                DirName:/CN=MatthewBentz-CA
+                serial:7B:05:D4:41:45:5A:E8:99:CD:AB:44:B3:F2:23:B9:7C:CA:30:52:D4
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:45:02:21:00:d9:d2:02:bd:36:5f:54:b0:72:3e:31:cb:c7:
+        8f:d6:ed:58:37:51:1e:b6:7f:c9:ef:9a:93:ae:e0:ca:f0:7c:
+        44:02:20:24:6a:86:d0:17:67:ef:c7:a4:5b:0a:ac:a5:b2:6b:
+        98:0a:d9:16:8f:9f:1b:65:e3:88:f5:97:79:01:bc:86:51
+-----BEGIN CERTIFICATE-----
+MIIB0DCCAXagAwIBAgIQbFeQVhpnl5eblxAfAagyTTAKBggqhkjOPQQDAjAaMRgw
+FgYDVQQDDA9NYXR0aGV3QmVudHotQ0EwHhcNMjYwNDE5MDI1OTI4WhcNMjgwNzIy
+MDI1OTI4WjARMQ8wDQYDVQQDDAZjbGllbnQwWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAARlMjsesWuDUDsBS/hz8YnfLT+Z7n/aY3G96wodpZgSRZTgYFoc/6s+p534
+iFQq5ZMbmnmUMnLycRQop6KdBcN7o4GmMIGjMAkGA1UdEwQCMAAwHQYDVR0OBBYE
+FLhe9lfX2gCkWk/E8nlQOmSbVSpkMFUGA1UdIwROMEyAFA7phxijuAht60qCfajD
+YAT0W2TLoR6kHDAaMRgwFgYDVQQDDA9NYXR0aGV3QmVudHotQ0GCFHsF1EFFWuiZ
+zatEs/IjuXzKMFLUMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAK
+BggqhkjOPQQDAgNIADBFAiEA2dICvTZfVLByPjHLx4/W7Vg3UR62f8nvmpOu4Mrw
+fEQCICRqhtAXZ+/HpFsKrKWya5gK2RaPnxtl44j1l3kBvIZR
+-----END CERTIFICATE-----
